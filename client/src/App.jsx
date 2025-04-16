@@ -7,10 +7,12 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Search } from "./components/Search";
 import { DashBoard } from "./pages/DashBoard";
+import TicketList from "./components/Tables/TicketsList";
+import { FinalData } from "./data/dummyData";
 
 function App() {
 
-  const navigate = useNavigate();
+  
 
   return (
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
         <Route path="/"element={<Home />} />
         <Route path="/about" element={<About/>}  />
         <Route path="/dashboard" element={<DashBoard/>} />
+        <Route path="/tickets" element={<TicketList data={FinalData}/>} />
       </Routes>
     </div>
   );

@@ -5,6 +5,8 @@ import {
 
 const BarChartComponent = ({ data }) =>{
 
+    console.log("BarChart Data", data[0].model)
+
     return (
         <div className="bg-[#14294d] p-4 rounded-lg">
     <ResponsiveContainer width="100%" height={300}>
