@@ -48,7 +48,7 @@ export const Home = () => {
         <img src={logo} alt="Logo" className="w-24 h-auto mb-2" />
 
         <h1 className="text-2xl font-bold text-start">
-          Data Driven Product Management Powered by Data, AI & ML
+            Data-Driven Product Management Powered by Data, AI & ML
         </h1>
 
         <p className="text-left text-gray-700 text-base leading-relaxed">

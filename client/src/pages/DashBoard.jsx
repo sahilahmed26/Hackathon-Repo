@@ -37,7 +37,7 @@ export const DashBoard = () => {
   return (
     <div className="p-6 bg-[#0c1c3a] text-white min-h-screen">
       <h1 className="text-md font-semibold mb-6 text-center">
-        Data Driven Project Mangement
+        Data-Driven Product Management
       </h1>
 
       <div className="grid grid-cols-2 gap-4 mb-6">
