@@ -10,7 +10,7 @@ export const Home = () => {
     <div className="p-6 relative ">
       <div className="flex flex-col items-start gap-2">
         <h1 className="text-2xl font-bold text-start">
-          Data Drivern Project Powered by Data, AI & ML
+          Data Driven Product Management Powered by Data, AI & ML
         </h1>
         <p className="text-left text-gray-700">
           Leverage the power of AI and machine learning to manage projects
